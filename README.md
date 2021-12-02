@@ -10,4 +10,4 @@ Las imágenes son referenciales y no corresponden al producto.
 
 Logo de Tivo por [juicy_fish](https://www.flaticon.es/autores/juicy-fish) de [www.flaticon.es](https://www.flaticon.es/)
 
-Imágenes de *Worlds* corresponden al videojuego [Fez](http://fezgame.com/) de [Polyton](https://twitter.com/polytron?lang=es)
+Imágenes de *Worlds* corresponden al videojuego [Fez](http://fezgame.com/) de [Polytron](https://twitter.com/polytron?lang=es)
