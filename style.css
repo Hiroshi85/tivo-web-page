@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Istok+Web&display=swap');
 
 :root{
     --logo-font: 'Baloo 2', cursive;
@@ -90,6 +91,20 @@ section{
     text-align: end;
 }
 
+#beta h4{
+    padding-top: 30px;
+    font-size: 28px;
+    text-align: center;
+}
+
+#form-beta{
+    padding: 0 20px;
+}
+
+#beta-img{
+    width: 70%;
+}
+
 .marca-span{
     font-family: var(--logo-font); 
     font-weight: var(--sub-weight);
@@ -142,7 +157,7 @@ footer{
     display: flex;
     align-items: center;
     text-align: center;
-    height: 60px;
+    height: 65px;
     margin-bottom: 0.6rem;
 }
 
@@ -260,7 +275,7 @@ Inicio de Media
         align-items: center;
         color: black;
         text-align: center;
-        height: 40px;
+        height: 70px;
         margin-bottom: 0.5rem;
     }
 
@@ -276,7 +291,7 @@ Inicio de Media
     #carouselCompromisoCaptions .carousel-item:before{
         content:"";
         background-image: 
-            linear-gradient(to  bottom, transparent, rgba(0,0,0,0.0));
+            linear-gradient(to  bottom, transparent, transparent);
         display: block;
         position: absolute;
         top: 0;
@@ -285,6 +300,16 @@ Inicio de Media
         height: 100%;
     }
     
+    #beta-img{
+        width: 80%;
+    }
+
+    #beta h4{
+        padding-top: 30px;
+        font-size: 24px;
+        text-align: center;
+    }
+
 }
 
 @media(max-width: 992px){
@@ -324,5 +349,9 @@ Inicio de Media
         margin-top: 18px;
         text-align: justify; 
         padding: 0 20px;
+    }
+
+    #beta-img{
+        width: 40%;
     }
 }
