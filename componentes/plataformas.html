@@ -15,7 +15,80 @@
 </head>
 <body>
     <div class="container-fluid">
-
+        <section id="plataformas">
+            <h2 class="subt-h2">Plataformas</h2>
+  
+              <div class="row">
+  
+                <div class="col-12 col-sm-6 col-md-4 d-flex flex-column">
+                    <div class="card-body border align-items-evenly">
+                      <h5 class="card-titulo"><i class="fa fa-android" aria-hidden="true"></i>
+                        &nbsp Smartphones y tablets Android</h5>
+                      <p class="card-texto">Productividad desde distintos dispositivos</p>
+                      <img src="../img/plataformas/android_devices.png" class="card-img">
+                      <p class="card-texto">Para versiones superiores a Android 6.0.</p>
+                      <a href="https://play.google.com/" class="btn btn-outline-primary" target="_blank">
+                        <i class="fa fa-external-link" aria-hidden="true"></i>
+                        &nbsp Disponible en Google Play
+                      </a>
+                    </div>
+                </div>
+  
+  
+                <div class="col-md-4 d-none d-md-flex flex-column">
+  
+                    <div class="card-body border align-items-evenly">
+                      <h5 class="card-titulo"><i class="fa fa-windows" aria-hidden="true"></i>&nbsp Windows OS</h5>
+                      <p class="card-texto">Control desde la comodidad de tu escritorio o portátil</p>
+                      <img src="../img/plataformas/windows_device.png" class="card-img">
+                      <p class="card-texto">Para Windows 7 Home o superior</p>
+                        <div class="btn-group">
+                          <button type="button" class="btn btn-outline-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fa fa-download" aria-hidden="true"></i>&nbsp Descargar
+                          </button>
+                          <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#" href="#" data-bs-toggle="modal" data-bs-target="#downloadModal">64 bits</a></li>
+                            <li><a class="dropdown-item" href="#" href="#" data-bs-toggle="modal" data-bs-target="#downloadModal">32 bits</a></li>
+                          </ul>
+                        </div>
+                    </div>
+                </div>
+  
+                <div class="col-12 col-sm-6 col-md-4 d-flex flex-column">
+                    <div class="card-body border align-items-evenly">
+                      <h5 class="card-titulo"><i class="fa fa-apple" aria-hidden="true"></i>&nbspiPhone y iPad</h5>
+                      <p class="card-texto">Elegancia y efectividad contigo</p>
+                      <img src="../img/plataformas/apple_devices.png" class="card-img">
+                      <p class="card-texto">Para versiones superiores a OS X 10</p>
+                      <a class="btn btn-outline-secondary disabled" href="#" role="button">
+                        <i class="fa fa-cog" aria-hidden="true"></i>&nbsp En desarrollo
+                      </a>
+                    </div>
+                </div>
+              
+              </div>
+              
+          <!--Modal-->
+  
+          <div class="modal fade" id="downloadModal" tabindex="-1" aria-labelledby="downloadModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="downloadModalLabel">Descarga automática</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  La descarga automática debe comenzar en los siguientes 5 segundos.
+                  <br><br>En caso de que esto no ocurriera, presionar en el botón de descargar.
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary"><i class="fa fa-download" aria-hidden="true"></i>&nbspDescargar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+  
+        </section>
     </div>
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>

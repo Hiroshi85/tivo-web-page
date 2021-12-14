@@ -6,6 +6,8 @@ Uso de BootStrap v5.0.
 
 Las organizaciones mencionadas y mostradas en la página no presentan relación con el producto al ser este ficitio (no real).
 
+Los índices de otras páginas han sido colocadas por separado e incrustradas mediante un iframe de acuerdo a lo solicitado.
+
 Las imágenes son referenciales y no corresponden al producto.
 
 Logo de Tivo por [juicy_fish](https://www.flaticon.es/autores/juicy-fish) de [www.flaticon.es](https://www.flaticon.es/)
